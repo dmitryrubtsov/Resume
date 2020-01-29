@@ -75,7 +75,7 @@
   <svg id='lines'>
     <rect class='lines' width='210' x='0' y='10' height='5'/>
     <rect class='lines' width='210' x='0' y='282' height='5'/>
-    <rect class='lines' width='180' height='0.3' x='15' y='104'/>
+    <rect class='lines' width='180' height='0.3' x='15' y='84'/>
     <rect class='lines' width='180' height='0.3' x='15' y='193'/>
   </svg>
 
@@ -97,7 +97,7 @@
     </svg>
   </svg>
 
-  <svg id='middle' x='15' y='104' width='180' height='89'>
+  <svg id='middle' x='15' y='84' width='180' height='999'>
     <svg id='column_1' width='58'>
       <rect class='grid' width='58' height='89'/>
       <g id='base_skills' transform='translate(0,10)'>
@@ -105,38 +105,71 @@
         <g transform='translate(0,7)'>
           <text class='block_text'>
             <tspan x='0' dy='4'>- Python</tspan>
+            <tspan x='0' dy='4'>- Pandas, Numpy, Matplotlib</tspan>
+            <tspan x='0' dy='4'>- PyTorch</tspan>
+            <tspan x='0' dy='4'>- Scikit-learn, Seaborn</tspan>
+            <tspan x='0' dy='4'>- Jupyter</tspan>
+            <tspan x='0' dy='4'>- Scrapy, BeautifulSoup</tspan>
+            <tspan x='0' dy='4'>- Linux / bash</tspan>
             <tspan x='0' dy='4'>- SQL (MySQL, PostgreSQL)</tspan>
             <tspan x='0' dy='4'>- noSQL (MongoDB)</tspan>
-            <tspan x='0' dy='4'>- Pandas, Numpy, Matplotlib</tspan>
-            <tspan x='0' dy='4'>- Scrapy, BeautifulSoup</tspan>
-            <tspan x='0' dy='4'>- Jupyter</tspan>
-            <tspan x='0' dy='4'>- Scikit-learn, Seaborn</tspan>
-            <tspan x='0' dy='4'>- Django</tspan>
-            <tspan x='0' dy='4'>- Vim</tspan>
-            <tspan x='0' dy='4'>- Linux / bash</tspan>
+            <!-- <tspan x='0' dy='4'>- Django</tspan> -->
             <tspan x='0' dy='4'>- Docker</tspan>
+            <tspan x='0' dy='4'>- Vim</tspan>
           </text>
-
+        </g>
+      </g>
+      <g id='skills' transform='translate(0,80)'>
+        <text class='block_title'>Другие навыки</text>
+        <g transform='translate(0,3)'>
+          <text class='block_text'>
+            <tspan x='0' dy='4'>- Умение писать «чистый» код</tspan>
+            <tspan x='0' dy='4'>- Регулярные выражения</tspan>
+            <tspan x='0' dy='4'>- Английский уровень A2</tspan>
+          </text>
         </g>
       </g>
     </svg>
-
     <svg id='column_2' x='61' width='119'>
       <rect class='grid' width='58' height='89'/>
       <rect class='grid' x='61' width='58' height='89'/>
+      <rect class='grid' x='119' width='58' height='89'/>
+      <g id='education' transform='translate(0,10)'>
+        <text class='block_title'>Образование, курсы</text>
+        <g id='geekbrains' transform='translate(0,7)'>
+          <text class='block_text' style='font-weight:bold;'>Geek University от mail.ru group</text>
+          <text class='block_text' transform='translate(0,4)' style='font-weight:bold;font-size:2.5'>Факультет Искусственного интеллект, 2020</text>
+          <text class='block_text' transform='translate(2,4)' style='font-size:2.5'>
+            <tspan x='0' dy='4'>- Создание инфраструктуры.</tspan>
+            <tspan x='3' dy='3' style='font-size:2.2'>В этой части курса изучены основы устройства операционных систем, алгоритмы и структуры</tspan>
+            <tspan x='3' dy='3' style='font-size:2.2'>данных на Python, библиотеки Python для Data Science, обогатил знания о ОС Linux.</tspan>
+            <tspan x='0' dy='4'>- Математика для Data Scientist-a</tspan>
+            <tspan x='3' dy='3' style='font-size:2.2'>В этой части курса изучены математический анализ, линейная алгебра, теория вероятностей и</tspan>
+            <tspan x='3' dy='3' style='font-size:2.2'>математическая статистика.</tspan>
+            <tspan x='0' dy='4'>- Парсинг и краулинг. Сбор данных в интернете</tspan>
+            <tspan x='3' dy='3' style='font-size:2.2'>В этой части курса изучены методы сбора и обработки данных из сети Интернет</tspan>
+            <tspan x='3' dy='3' style='font-size:2.2'>(BeautifulSoup, scrapy, selenium).</tspan>
+            <tspan x='3' dy='3' style='font-size:2.2'>Scrapy проект для сайтов hh.ru/superjob.ru.</tspan>
+            <tspan x='3' dy='3' style='font-size:2.2'>Scrapy проект для сайта avito.ru .</tspan>
+            <tspan x='0' dy='4'>- Машинное обучение</tspan>
+            <tspan x='3' dy='3' style='font-size:2.2'>Получил практику в решении профильных задач. Анализ временных рядов.</tspan>
+            <tspan x='0' dy='4'>- Проекты:</tspan>
+            <tspan x='3' dy='3' style='font-size:2.2'>- Модель для предсказания цен на недвижимость (R2 score: 0.754293)</tspan>
+            <tspan x='3' dy='3' style='font-size:2.2'>- Модель предсказания дефолта заемщика (F1 score: 0.53469)</tspan>
 
-      <g id='work' transform='translate(0,10)'>
-        <text class='block_title'>Опыт работы</text>
-        <g id='K4' transform='translate(0,7)'>
-          <text class='block_text' style='font-weight:bold;'>Системный администратор/Инженер-технолог</text>
-          <text class='block_text' transform='translate(0,4)' style='font-weight:bold;;font-size:2.5'>ООО "К4 ПЛАНУНГСБЮРО"</text>
-          <text class='block_text' transform='translate(2,8)'>
-            <tspan>Основные должностные обязанности связаны с проектированием предприятий</tspan>
-            <tspan x='0' dy='4'>общественного питания. Также выполнял функции системного администратора</tspan>
-            <tspan x='0' dy='4'>офисной сети:</tspan>
-            <tspan x='1' dy='4'>- Администрирование SOHO-сервера (Ubuntu Server);</tspan>
-            <tspan x='1' dy='4'>- Администрирование SOHO сети (RouteOS, Dlink);</tspan>
-            <tspan x='1' dy='4'>- Автоматизация бизнес процессов VBA.</tspan>
+            <!-- <tspan x='0' dy='4'>- Нейронные сети</tspan> <tspan x='0' dy='4'>- Задачи искусственного интеллекта</tspan> -->
+          </text>
+        </g>
+        <g id='mgutm' transform='translate(0,70)'>
+          <text class='block_text' style='font-weight:bold;'>Московский университет технологий и управления</text>
+          <text class='block_text' transform='translate(0,4)' style='font-weight:bold;font-size:2.5'>Технология продуктов общественного питания, 2011</text>
+        </g>
+
+        <g id='stepik' transform='translate(0,80)'>
+          <text class='block_text' style='font-weight:bold;'>Stepik.org</text>
+          <text class='block_text' transform='translate(0.4)' style='font-size:2.5'>
+            <tspan x='0' dy='4'>Нейронные сети и компьютерное зрение на Stepik.org от компании Samsung Research Russia.</tspan>
+            <tspan x='0' dy='4'>Введение в Data Science и машинное обучение на Stepik.org от компании Bioinformatics Institute.</tspan>
           </text>
         </g>
       </g>
@@ -176,8 +209,11 @@
             <path
               id='github_logo'
               d='M 1.491891,289.67715 C 0.668002,289.67715 0,290.36571 0,291.21514 c 0,0.67951 0.427471,1.25588 1.020359,1.45936 0.07465,0.0141 0.101854,-0.0334 0.101854,-0.0742 0,-0.0365 -0.0013,-0.13322 -0.0021,-0.26153 -0.415008,0.0929 -0.502585,-0.2062 -0.502585,-0.2062 -0.06787,-0.1776 -0.165697,-0.22489 -0.165697,-0.22489 -0.135469,-0.0954 0.01026,-0.0936 0.01026,-0.0936 0.14976,0.0109 0.22853,0.15852 0.22853,0.15852 0.133089,0.23499 0.349267,0.16712 0.434248,0.12783 0.01355,-0.0995 0.05203,-0.1672 0.09471,-0.20563 -0.3313,-0.0387 -0.679633,-0.1708 -0.679633,-0.76012 0,-0.16788 0.05816,-0.30515 0.153605,-0.4127 -0.0154,-0.0389 -0.06659,-0.19525 0.01457,-0.40701 0,0 0.125302,-0.0413 0.410335,0.15768 0.118982,-0.0341 0.246665,-0.0511 0.373518,-0.0518 0.126675,5.3e-4 0.254358,0.0176 0.373517,0.0518 0.284851,-0.19902 0.409894,-0.15768 0.409894,-0.15768 0.08143,0.21177 0.03023,0.36813 0.01485,0.40701 0.09563,0.10755 0.153421,0.24482 0.153421,0.4127 0,0.59085 -0.348878,0.72086 -0.681295,0.75889 0.05358,0.0475 0.101303,0.14134 0.101303,0.28484 0,0.20554 -0.0018,0.37142 -0.0018,0.42184 0,0.0411 0.02684,0.0891 0.102587,0.074 0.592443,-0.20384 1.01955,-0.77985 1.01955,-1.45918 0,-0.84944 -0.668105,-1.53799 -1.492176,-1.53799'/>
-              <text class='block_text' x='4.1869178' y='291.93759'>github.com/dmitryrubtsov</text>
-            <path id='kaggle_logo' style='fill:#20beff;stroke-width:0.04940911' d='m 2.3450067,296.98229 c -0.0031,0.0117 -0.01474,0.0176 -0.03525,0.0176 h -0.392156 c -0.02361,0 -0.04401,-0.0103 -0.06164,-0.0309 l -0.64756,-0.82375 -0.18059,0.1718 v
+            <text class='block_text' x='4.1869178' y='291.93759'>github.com/dmitryrubtsov</text>
+            <path
+              id='kaggle_logo'
+              style='fill:#20beff;stroke-width:0.04940911'
+              d='m 2.3450067,296.98229 c -0.0031,0.0117 -0.01474,0.0176 -0.03525,0.0176 h -0.392156 c -0.02361,0 -0.04401,-0.0103 -0.06164,-0.0309 l -0.64756,-0.82375 -0.18059,0.1718 v
             0.63886 c 0,0.0294 -0.01474,0.0441 -0.04412,0.0441 h -0.303963 c -0.02938,2e-5 -0.04412,-0.0147 -0.04412,-0.0441 v -2.91192 c 0,-0.0293 0.01464,-0.044 0.04412,-0.044 h 0.304014 c 0.02938,0 0.04412,0.0147 0.04412,0.044 v 1.79296 l 0.775324,-0.78412 c
             0.02051,-0.0205 0.04113,-0.0308 0.06164,-0.0308 h 0.40536 c 0.01763,0 0.02927,0.007 0.03525,0.022 0.0062,0.0176 0.0041,0.0308 -0.0041,0.0397 l -0.819451,0.79281 0.854631,1.0617 c 0.01175,0.0118 0.01464,0.0264 0.0093,0.0441'/>
             <text class='block_text' x='4.0819178' y='296.26053'>kaggle.com/dmitryrubtsov</text>
@@ -186,43 +222,25 @@
       </g>
 
     </svg>
-
-    <svg id='column_2' x='61' width='58'>
+    <svg id='column_2' x='61' width='119'>
       <rect class='grid' width='58' height='89'/>
-      <g id='education' transform='translate(0,10)'>
-        <text class='block_title'>Образование, курсы</text>
-        <g id='geekbrains' transform='translate(0,7)'>
-          <text class='block_text' style='font-weight:bold;'>Geek University от mail.ru group</text>
-          <text class='block_text' transform='translate(0,4)' style='font-weight:bold;font-size:2.4'>Факультет Искусственного интеллект</text>
-          <text class='block_text' transform='translate(2,4)' style='font-size:2.3'>
-            <tspan x='0' dy='4'>- Создание инфраструктуры</tspan>
-            <tspan x='0' dy='4'>- Математика для Data Scientist-a</tspan>
-            <tspan x='0' dy='4'>- Парсинг и краулинг. Сбор данных в интернете</tspan>
-            <tspan x='0' dy='4'>- Машинное обучение</tspan>
-            <!-- <tspan x='0' dy='4'>- Нейронные сети</tspan> <tspan x='0' dy='4'>- Задачи искусственного интеллекта</tspan> -->
-          </text>
-        </g>
-        <g id='mgutm' transform='translate(0,35)'>
-          <text class='block_text' style='font-weight:bold;'>Московский университет технологий и</text>
-          <text class='block_text' transform='translate(0,4)' style='font-weight:bold;'>управления</text>
-          <text class='block_text' transform='translate(1,8)' style='font-weight:bold;font-size:2.4'>Технология продуктов общественного питания</text>
-        </g>
-      </g>
-    </svg>
+      <rect class='grid' x='61' width='58' height='89'/>
 
-    <svg id='column_3' x='122' width='58'>
-      <rect class='grid' width='58' height='89'/>
-      <g id='skills' transform='translate(0,10)'>
-        <text class='block_title'>Другие навыки</text>
-        <g transform='translate(0,3)'>
-          <text class='block_text'>
-            <tspan x='0' dy='4'>- Умение писать «чистый» код</tspan>
-            <tspan x='0' dy='4'>- Регулярные выражения</tspan>
-            <tspan x='0' dy='4'>- Английский уровень A2</tspan>
+      <g id='work' transform='translate(0,10)'>
+        <text class='block_title'>Опыт работы</text>
+        <g id='K4' transform='translate(0,7)'>
+          <text class='block_text' style='font-weight:bold;'>Системный администратор/Инженер-технолог</text>
+          <text class='block_text' transform='translate(0,4)' style='font-weight:bold;;font-size:2.5'>ООО "К4 ПЛАНУНГСБЮРО", 2011-наст. вр.</text>
+          <text class='block_text' transform='translate(2,8)'>
+            <tspan>Основные должностные обязанности связаны с проектированием предприятий</tspan>
+            <tspan x='0' dy='4'>общественного питания. Также выполнял функции системного администратора</tspan>
+            <tspan x='0' dy='4'>офисной сети:</tspan>
+            <tspan x='1' dy='4'>- Администрирование SOHO-сервера (Ubuntu Server);</tspan>
+            <tspan x='1' dy='4'>- Администрирование SOHO сети (RouteOS, Dlink);</tspan>
+            <tspan x='1' dy='4'>- Автоматизация бизнес процессов VBA.</tspan>
           </text>
         </g>
       </g>
-
     </svg>
   </svg>
 
