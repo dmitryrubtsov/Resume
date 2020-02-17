@@ -1,8 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<svg width='210mm' height='297mm' viewBox='0 0 210 297' xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<svg width='210mm' height='297mm' viewBox='0 0 210 297' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'>
 
   <style>
-    @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+    @font-face {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
 
     .lines {
       fill: #272727;
