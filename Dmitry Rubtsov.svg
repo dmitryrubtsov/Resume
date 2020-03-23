@@ -38,10 +38,41 @@
       fill: #c2331a;
     }
 
+    .block_title_l1 {
+      font-variant: normal;
+      font-weight: bold;
+      font-size: 3px;
+      font-family: Raleway, sans-serif;
+      fill: #272727;
+    }
+
+    .block_title_l2 {
+      font-variant: normal;
+      font-weight: bold;
+      font-size: 2.5px;
+      font-family: Raleway, sans-serif;
+      fill: #272727;
+    }
+
     .block_text {
       font-variant: normal;
       font-weight: normal;
       font-size: 3px;
+      font-family: Raleway, sans-serif;
+      fill: #272727;
+    }
+
+    .block_list_l1 {
+      font-variant: normal;
+      font-weight: normal;
+      font-size: 2.5px;
+      font-family: Raleway, sans-serif;
+      fill: #272727;
+    }
+    .block_list_l2 {
+      font-variant: normal;
+      font-weight: normal;
+      font-size: 2.2px;
       font-family: Raleway, sans-serif;
       fill: #272727;
     }
@@ -74,11 +105,11 @@
   <svg id='lines'>
     <rect class='lines' width='210' x='0' y='10' height='5'/>
     <rect class='lines' width='210' x='0' y='282' height='5'/>
-    <rect class='lines' width='180' height='0.3' x='15' y='84'/>
-    <rect class='lines' width='180' height='0.3' x='15' y='193'/>
+    <rect class='lines' width='180' height='0.3' x='15' y='70'/>
+    <rect class='lines' width='180' height='0.3' x='15' y='207'/>
   </svg>
 
-  <svg id='head' x='15' y='15' width='180' height='89'>
+  <svg id='head' x='15' y='15' width='180' height='75'>
     <svg id='column_1' width='58'>
       <rect class='grid' width='58' height='89'/>
       <g>
@@ -96,7 +127,7 @@
     </svg>
   </svg>
 
-  <svg id='middle' x='15' y='84' width='180' height='999'>
+  <svg id='middle' x='15' y='80' width='180' height='999'>
     <svg id='column_1' width='58'>
       <rect class='grid' width='58' height='89'/>
       <g id='base_skills' transform='translate(0,10)'>
@@ -104,6 +135,7 @@
         <g transform='translate(0,7)'>
           <text class='block_text'>
             <tspan x='0' dy='4'>- Python</tspan>
+            <tspan x='0' dy='4'>- Jupyter</tspan>
             <tspan x='0' dy='4'>- Pandas, Numpy, Matplotlib</tspan>
             <tspan x='0' dy='4'>- PyTorch</tspan>
             <tspan x='0' dy='4'>- Scikit-learn, Seaborn</tspan>
@@ -136,48 +168,62 @@
       <g id='education' transform='translate(0,10)'>
         <text class='block_title'>Образование, курсы</text>
         <g id='geekbrains' transform='translate(0,7)'>
-          <text class='block_text' style='font-weight:bold;'>Geek University от mail.ru group</text>
-          <text class='block_text' transform='translate(0,4)' style='font-weight:bold;font-size:2.5'>Факультет Искусственного интеллект, 2020</text>
-          <text class='block_text' transform='translate(2,4)' style='font-size:2.5'>
+          <text class='block_title_l1'>Geek University от mail.ru group</text>
+          <text class='block_title_l2' transform='translate(0,4)'>Факультет Искусственного интеллект, 2020</text>
+          <text class='block_list_l1' transform='translate(2,4)'>
             <tspan x='0' dy='4'>- Создание инфраструктуры.</tspan>
-            <tspan x='3' dy='3' style='font-size:2.2'>В этой части курса изучены основы устройства операционных систем, алгоритмы и структуры</tspan>
-            <tspan x='3' dy='3' style='font-size:2.2'>данных на Python, библиотеки Python для Data Science, обогатил знания о ОС Linux.</tspan>
+            <tspan class='block_list_l2'>
+              <tspan x='3' dy='3'>В этой части курса изучены основы устройства операционных систем, алгоритмы и структуры</tspan>
+              <tspan x='3' dy='3'>данных на Python, библиотеки Python для Data Science, обогатил знания о ОС Linux.</tspan>
+            </tspan>
             <tspan x='0' dy='4'>- Математика для Data Scientist-a</tspan>
-            <tspan x='3' dy='3' style='font-size:2.2'>В этой части курса изучены математический анализ, линейная алгебра, теория вероятностей и</tspan>
-            <tspan x='3' dy='3' style='font-size:2.2'>математическая статистика.</tspan>
+            <tspan class='block_list_l2'>
+              <tspan x='3' dy='3' style='font-size:2.2'>В этой части курса изучены математический анализ, линейная алгебра, теория вероятностей и</tspan>
+              <tspan x='3' dy='3' style='font-size:2.2'>математическая статистика.</tspan>
+            </tspan>
             <tspan x='0' dy='4'>- Парсинг и краулинг. Сбор данных в интернете</tspan>
-            <tspan x='3' dy='3' style='font-size:2.2'>В этой части курса изучены методы сбора и обработки данных из сети Интернет</tspan>
-            <tspan x='3' dy='3' style='font-size:2.2'>(BeautifulSoup, scrapy, selenium).</tspan>
-            <a href='https://github.com/dmitryrubtsov/Methods-of-collecting-and-processing-data-from-the-Internet/tree/master/lesson_05/scrapy_project'>
-              <tspan x='3' dy='3' style='font-size:2.2'>Scrapy проект для сайтов hh.ru/superjob.ru.</tspan>
-            </a>
-            <a href='https://github.com/dmitryrubtsov/Methods-of-collecting-and-processing-data-from-the-Internet/tree/master/lesson_06'>
-              <tspan x='3' dy='3' style='font-size:2.2'>Scrapy проект для сайта avito.ru .</tspan>
-            </a>
+            <tspan class='block_list_l2'>
+              <tspan x='3' dy='3'>В этой части курса изучены методы сбора и обработки данных из сети Интернет</tspan>
+              <tspan x='3' dy='3'>(BeautifulSoup, scrapy, selenium).</tspan>
+              <a href='https://github.com/dmitryrubtsov/Methods-of-collecting-and-processing-data-from-the-Internet/tree/master/lesson_05/scrapy_project'>
+                <tspan x='3' dy='3'>Scrapy проект для сайтов hh.ru/superjob.ru.</tspan>
+              </a>
+              <a href='https://github.com/dmitryrubtsov/Methods-of-collecting-and-processing-data-from-the-Internet/tree/master/lesson_06'>
+                <tspan x='3' dy='3'>Scrapy проект для сайта avito.ru .</tspan>
+              </a>
+            </tspan>
             <tspan x='0' dy='4'>- Машинное обучение</tspan>
-            <tspan x='3' dy='3' style='font-size:2.2'>Получил практику в решении профильных задач. Анализ временных рядов.</tspan>
+            <tspan class='block_list_l2'>
+              <tspan x='3' dy='3'>Получил практику в решении профильных задач. Анализ временных рядов.</tspan>
+            </tspan>
             <tspan x='0' dy='4'>- Проекты:</tspan>
-            <a href='https://github.com/dmitryrubtsov/Python-for-Data-Science/blob/master/Course_project/DRubtsov_notebook.ipynb'>
-              <tspan x='3' dy='3' style='font-size:2.2'>- Модель для предсказания цен на недвижимость (R2 score: 0.754293)</tspan>
-            </a>
-            <a href='https://github.com/dmitryrubtsov/Kaggle/blob/master/Loan%20Default%20Prediction/loan-default-prediction.ipynb'>
-              <tspan x='3' dy='3' style='font-size:2.2'>- Модель предсказания дефолта заемщика (F1 score: 0.53469)</tspan>
-            </a>
-            <a href='https://github.com/dmitryrubtsov/Predictions-of-calls-in-Moscow-Megafon/blob/master/megafon_project.ipynb'>
-              <tspan x='3' dy='3' style='font-size:2.2'>- Модель определения вероятности подключения услуги</tspan>
-            </a>
+            <tspan class='block_list_l2'>
+              <a href='https://github.com/dmitryrubtsov/Python-for-Data-Science/blob/master/Course_project/DRubtsov_notebook.ipynb'>
+                <tspan x='3' dy='3'>- Модель для предсказания цен на недвижимость (R2 score: 0.754293)</tspan>
+              </a>
+              <a href='https://github.com/dmitryrubtsov/Kaggle/blob/master/Loan%20Default%20Prediction/loan-default-prediction.ipynb'>
+                <tspan x='3' dy='3'>- Модель предсказания дефолта заемщика (F1 score: 0.53469)</tspan>
+              </a>
+              <a href='https://github.com/dmitryrubtsov/Predictions-of-calls-in-Moscow-Megafon/blob/master/megafon_project.ipynb'>
+                <tspan x='3' dy='3'>- Модель определения вероятности подключения услуги</tspan>
+              </a>
+
+              <!-- <a href=''> <tspan x='3' dy='3' style='font-size:2.2'>- Модель предсказания оттока.</tspan> </a> -->
+            </tspan>
 
             <!-- <tspan x='0' dy='4'>- Нейронные сети</tspan> <tspan x='0' dy='4'>- Задачи искусственного интеллекта</tspan> -->
+            <!-- <tspan x='0' dy='4'>- Задачи искусственного интеллекта. Совместно с компанией NVIDIA</tspan> -->
+
           </text>
         </g>
-        <g id='mgutm' transform='translate(0,75)'>
-          <text class='block_text' style='font-weight:bold;'>Московский университет технологий и управления</text>
-          <text class='block_text' transform='translate(0,4)' style='font-weight:bold;font-size:2.5'>Технология продуктов общественного питания, 2011</text>
+        <g id='mgutm' transform='translate(0,80)'>
+          <text class='block_title_l1'>Московский университет технологий и управления</text>
+          <text class='block_title_l2' transform='translate(0,4)'>Технология продуктов общественного питания, 2011</text>
         </g>
 
-        <g id='stepik' transform='translate(0,85)'>
-          <text class='block_text' style='font-weight:bold;'>Stepik.org</text>
-          <text class='block_text' transform='translate(0.4)' style='font-size:2.5'>
+        <g id='stepik' transform='translate(0,90)'>
+          <text class='block_title_l1'>Stepik.org</text>
+          <text class='block_list_l1' transform='translate(0.4)'>
             <tspan x='0' dy='4'>Нейронные сети и компьютерное зрение на Stepik.org от компании Samsung Research Russia.</tspan>
             <tspan x='0' dy='4'>Введение в Data Science и машинное обучение на Stepik.org от компании Bioinformatics Institute.</tspan>
           </text>
@@ -186,7 +232,7 @@
     </svg>
   </svg>
 
-  <svg id='tail' x='15' y='193' width='180' height='89'>
+  <svg id='tail' x='15' y='207' width='180' height='89'>
     <svg id='column_1' width='58'>
       <rect class='grid' width='58' height='89'/>
       <g id='Contacts' transform='translate(0,10)'>
@@ -244,15 +290,17 @@
       <g id='work' transform='translate(0,10)'>
         <text class='block_title'>Опыт работы</text>
         <g id='K4' transform='translate(0,7)'>
-          <text class='block_text' style='font-weight:bold;'>Системный администратор/Инженер-технолог</text>
-          <text class='block_text' transform='translate(0,4)' style='font-weight:bold;;font-size:2.5'>ООО "К4 ПЛАНУНГСБЮРО", 2011-2020.</text>
-          <text class='block_text' transform='translate(2,8)'>
-            <tspan>Основные должностные обязанности связаны с проектированием предприятий</tspan>
-            <tspan x='0' dy='4'>общественного питания. Также выполнял функции системного администратора</tspan>
-            <tspan x='0' dy='4'>офисной сети:</tspan>
-            <tspan x='1' dy='4'>- Администрирование SOHO-сервера (Ubuntu Server);</tspan>
-            <tspan x='1' dy='4'>- Администрирование SOHO сети (RouteOS, Dlink);</tspan>
-            <tspan x='1' dy='4'>- Автоматизация бизнес процессов VBA.</tspan>
+          <text class='block_title_l1'>Системный администратор/Инженер-технолог</text>
+          <text class='block_title_l2' transform='translate(0,4)'>ООО "К4 ПЛАНУНГСБЮРО", 2011-2020.</text>
+          <text class='block_list_l1' transform='translate(2,8)'>
+            <tspan class='block_list_l2'>
+              <tspan >Основные должностные обязанности связаны с проектированием предприятий</tspan>
+              <tspan x='0' dy='4'>общественного питания. Также выполнял функции системного администратора</tspan>
+              <tspan x='0' dy='4'>офисной сети:</tspan>
+              <tspan x='1' dy='4'>- Администрирование SOHO-сервера (Ubuntu Server);</tspan>
+              <tspan x='1' dy='4'>- Администрирование SOHO сети (RouteOS, Dlink);</tspan>
+              <tspan x='1' dy='4'>- Автоматизация бизнес процессов VBA.</tspan>
+            </tspan>
           </text>
         </g>
       </g>
