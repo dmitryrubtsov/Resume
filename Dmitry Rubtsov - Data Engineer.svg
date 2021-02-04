@@ -149,7 +149,11 @@
       font-variant: normal;
       font-weight: bold;
       font-size: 3px;
+<<<<<<< HEAD:Dmitry Rubtsov - Data Engineer.svg
       font-family: Raleway;
+=======
+      font-family: Raleway, sans-serif;
+>>>>>>> 07dde1f7a81f2d086c4dc47380860ac74151a591:Dmitry Rubtsov.svg
       fill: #272727;
     }
 
@@ -157,7 +161,11 @@
       font-variant: normal;
       font-weight: bold;
       font-size: 2.5px;
+<<<<<<< HEAD:Dmitry Rubtsov - Data Engineer.svg
       font-family: Raleway;
+=======
+      font-family: Raleway, sans-serif;
+>>>>>>> 07dde1f7a81f2d086c4dc47380860ac74151a591:Dmitry Rubtsov.svg
       fill: #272727;
     }
 
